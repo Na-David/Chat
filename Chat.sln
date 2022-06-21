@@ -1,22 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChat", "SimpleChat\SimpleChat.csproj", "{5E5E087C-2F48-49D3-9FAD-1AFDC92B5503}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple", "Simple\Simple.csproj", "{8B6C8226-8EB6-4628-9763-1AEF2FFDC8A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B6C8226-8EB6-4628-9763-1AEF2FFDC8A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6C8226-8EB6-4628-9763-1AEF2FFDC8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6C8226-8EB6-4628-9763-1AEF2FFDC8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6C8226-8EB6-4628-9763-1AEF2FFDC8A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5E5E087C-2F48-49D3-9FAD-1AFDC92B5503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E5E087C-2F48-49D3-9FAD-1AFDC92B5503}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E5E087C-2F48-49D3-9FAD-1AFDC92B5503}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E5E087C-2F48-49D3-9FAD-1AFDC92B5503}.Release|Any CPU.Build.0 = Release|Any CPU
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDDFC3F2-27E5-4638-886D-077A6A305071}
 	EndGlobalSection
 EndGlobal
