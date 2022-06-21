@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Simple.Hubs;
 
 namespace Simple
 {
@@ -13,6 +14,7 @@ namespace Simple
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddSignalR();
 
         }
 
@@ -29,6 +31,7 @@ namespace Simple
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapHub<Simple.Hubs.SimpleChat>("/SimplChat");
 
             });
         }
